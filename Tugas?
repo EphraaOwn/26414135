@@ -1,0 +1,240 @@
+ 1  ls
+    2  cd Downloads
+    3  ls
+    4  pwd
+    5  ls
+    6  cd ..
+    7  ls
+    8  ls -l
+    9  mkdir test
+   10  ls
+   11  rmdir test
+   12  ls
+   13  ls -al
+   14  ls -l
+   15  mkdir TestFH
+   16  ls -l
+   17  cd TestFH
+   18  vim
+   19  vim-gnome
+   20  vim
+   21  sudo
+   22  sudo man
+   23  vim
+   24  sudo man
+   25  man
+   26  cd man
+   27  vim man
+   28  sudo vim
+   29  nano
+   30  ls
+   31  rm CobaCoba
+   32  ls
+   33  touch coba.txt
+   34  ls
+   35  nano coba.txt
+   36  echo
+   37  ls
+   38  nano coba.txt
+   39  tesls
+   40  ls
+   41  vim coba.txt
+   42  nano coba.txt
+   43  touch
+   44  touch --help
+   45  touch -t
+   46  touch -t coba.txt 121212
+   47  ls -l
+   48  ls -al
+   49  cp coba.txt coba2.txt
+   50  ls
+   51  nano coba2.txt
+   52  nano coba.txt
+   53  mkdir folder1
+   54  ls
+   55  mv coba.txt folder1
+   56  ls
+   57  cd folder1
+   58  ls
+   59  rm coba.txt
+   60  ls
+   61  cd ..
+   62  ls
+   63  file
+   64  file coba2.txt coba2.doc
+   65  l
+   66  ls
+   67  nano coba2.txt
+   68  rm coba2.txt coba.txt
+   69  ls
+   70  touch coba.txt
+   71  nano coba.txt
+   72  ls
+   73  file coba.txt
+   74  ls
+   75  touch coba.doc
+   76  ls
+   77  file coba.doc
+   78  rm coba.doc
+   79  ls
+   80  stat coba.txt
+   81  lsattr
+   82  chattr
+   83  chattr -RVF
+   84  find coba.txt
+   85  ls
+   86  cd ..
+   87  find coba.txt
+   88  find /TestFH/coba.txt
+   89  find \TestFH\coba.txt
+   90  locate coba.txt
+   91  ls
+   92  cd TestFH
+   93  locate coba.txt
+   94  which
+   95  ls
+   96  which
+   97  whereis
+   98  whereis -B
+   99  whereis -f -B
+  100  whereis -f
+  101  head
+  102  su
+  103  sudo
+  104  who
+  105  w
+  106  whoami
+  107  history
+  108  nano coba.txt
+  109  git config -global user.name Efraim Owen G
+  110  sudo apt install git
+  111  git config -global user.name Efraim Owen G
+  112  git config --global user.name Ephraaown
+  113  git config --global user.emailefraimowen@gmail.com
+  114  1  ls
+  115  git remote add origin https://github.com/EphraaOwn/Be-Happy.git
+  116  echo "# gittest" >> README:md
+  117  git init
+  118  git remote add origin https://github.com/EphraaOwn/Be-Happy.git
+  119  git push -u origin master
+  120  git remote add origin https://github.com/ephraaown/be-happy.git
+  121  git push -u origin master
+  122  git fetch origin
+  123  git push -u origin master
+  124  git merge origin https://github.com/EphraaOwn/Be-Happy/tree/Task
+  125  git push -u origin master
+  126  git commit -m 'initial commit'
+  127  touch README
+  128  git add README
+  129  git add (all other files)
+  130  git commit -m 'reinitialized files'
+  131  git config --global user.email "you@example.com"
+  132  git config --global user.email "efraimowen@gmail.com"
+  133  git commit -m 'reinitialized files'
+  134  git push origin master --force
+  135  git remote add origin https://github.com/ephraaown/be-happy.git
+  136  git push orgin master
+  137  mkdir repo && cd repo
+  138  git remote add origin /path/to/origin.git
+  139  git add .
+  140  git push -u origin master
+  141  ls
+  142  cd ..
+  143  ls
+  144  rm repo
+  145  rmdir repo
+  146  ls
+  147  rm README
+  148  rm README:md
+  149  ls
+  150  cd ..
+  151  mkdir Be-Happy
+  152  ls -l
+  153  rmdir Be-Happy
+  154  mkdir be-happy
+  155  cd be-happy
+  156  echo "# Be-Happy" >> README.md
+  157  ls
+  158  git add README.md
+  159  clear
+  160  mkdir tugas
+  161  ls
+  162  cd tugas
+  163  nano coba.txt
+  164  cd ...
+  165  cd ....
+  166  cd .
+  167  cd
+  168  ls
+  169  cs TestFH
+  170  cd TestFH
+  171  ls
+  172  who
+  173  whoami
+  174  stat
+  175  whereis
+  176  pwd
+  177  cp coba.txt /home/ephraim/be-happy/tugas/
+  178  cd ..
+  179  ls
+  180  cd bee-happy
+  181  cd be-happy
+  182  ls
+  183  cd tugas
+  184  ls
+  185  nano coba.txt
+  186  history
+  187  nano coba.txt
+  188  history
+  189  rm coba.txt
+  190  ls
+  191  nano coba.txt
+  192  cd ..
+  193  git add tugas
+  194  ls
+  195  git init
+  196  git add tugas
+  197  git commit -m "i added tugas"
+  198  git remote add origin https://github.com/ephraaown/Be-Happy.git
+  199  git push -u origin master
+  200  git push --help
+  201  ls
+  202  git init
+  203  pwd
+  204  mv /tugas/coba.txt /home/ephraim/be-happy
+  205  cd tugas
+  206  ls
+  207  mv coba.txt /home/ephraim/be-happy
+  208  ls
+  209  cd ,,
+  210  cd ..
+  211  rmdir tugas
+  212  ls
+  213  git init
+  214  git add coba.txt
+  215  git commit -m "Owen added coba.txt"
+  216  git remote add origin https://github.com/ephraaown/Be-Happy.git
+  217  git push -u origin master
+  218  git remote add origin https://github.com/ephraaown/Be-Happy.git
+  219  git push -u origin master
+  220  ls
+  221  git config --global user.name "Be-Happy"
+  222  git config --global user.name "EphraaOwn"
+  223  git config --global user.email "efraimowen@gmail.com"
+  224  clear
+  225  echo "# Be-Happy" >> README.md
+  226  ls
+  227  git init
+  228  git add README.md
+  229  git commit -m "Second Commit"
+  230  git remote add origin https://github.com/EphraaOwn/Be-Happy.git
+  231  git push -u origin master
+  232  git pull
+  233  git remote add origin https://github.com/EphraaOwn/Be-Happy.git
+  234  git push -u origin master
+  235  git pull -u origin master
+  236  ls
+  237  nano coba.txt
+  238  download
+  239  sdownload coba.txt
+  240  history
