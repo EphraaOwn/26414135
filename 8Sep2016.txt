@@ -1,0 +1,58 @@
+8 Sep 2016
+
+  243  ls -l
+  244  awk '1; { print "" }' < text.txt
+  245  touch text.txt
+  246  ls -l
+  247  awk '1; { print "" }' < text.txt
+  248  ls -l
+  249  ls -l
+  250  ll
+  251  ll| awk '1; { print "" }'
+  252  ll| awk '{ printf("%5d : %s\n", NR, $0) }'
+  253  vim
+  254  vim-gnome
+  255  vim
+  256  sudo apt install vim
+  257  vim
+  258  ls -l
+  259  cat text.txt
+  260  vim
+  261  ls -l
+  262  vim owen.txt
+  263  ls -l
+  264  rm owen.txt
+  265  vim makanan.csv
+  266  awk 'BEGIN {print "mulai"}' {print} END {print"selesai"}' < makanan.csv
+
+  267  awk 'BEGIN {print "mulai"}' {print} END {print"selesai"}' < makanan.csv
+
+  268  vim makanan.csv
+  269  awk 'BEGIN {print "mulai"} {print} END {print"selesai"}' < makanan.csv
+  270  awk 'BEGIN {print "mulai"} {printf("%5d : %s\n"), NR, $0} END {print"selesai"}' < makanan.csv
+  271  awk 'BEGIN {print "mulai"} {printf("%1d : %s\n"), NR, $0} END {print"selesai"}' < makanan.csv
+  272  vim makanan.csv
+  273  sed 's/ayam/empal/' < makanan.csv
+  274  cat makanan.csv
+  275  vim makanan.csv
+  276  sed 's/ayam/kuda/' < makanan.csv > menu.txt
+  277  cat menu.txt
+  278  sed G < makanan.csv
+  279  sort -r makanan.csv
+  280  sort -n makanan.csv
+  281  sort -t _ -k 2 makanan.csv
+  282  sort -n -k 2 makanan.csv
+  283  vim makanan.csv
+  284  makanan.csv
+  285  < makanan.csv
+  286  vim makanan.csv
+  287  cat makanan.csv
+  288  sort -r -n makanan.csv
+  289  sort -r -k 2 makanan.csv
+  290  sort -n -k 2 makanan.csv
+  291  awk 'BEGIN {print "mulai"} {printf("%5d : %s\n"), NR, $0} END {print"selesai"}' < makanan.csv | sort -n -k 2 makanan.csv
+  292  awk 'BEGIN {print "mulai"} {printf("%5d : %s\n"), NR, $0} END {print"selesai"}' | sort -n -k 2 makanan.csv
+  293  awk 'BEGIN {print "mulai"} {printf("%5d : %s\n"), NR, $0} END {print"selesai"}' | sort -n -k 2 < makanan.csv
+  294  awk 'BEGIN {print "mulai"} {printf("%5d : %s\n"), NR, $0} END {print"selesai"}' < makanan.csv
+  295  history
+
