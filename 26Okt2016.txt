@@ -1,0 +1,31 @@
+Chapter 2
+
+Belajar tar, dan mail
+  458  man tar
+  459  tar -c
+  460  tar -c 26414135
+  461  tar -cvf 26414135
+  462  tar -cvf 26414135.tar 26414135
+  463  ls -l
+  464  netstat
+  465  mail -s "Hello World" someone@example.com'
+  466  cc:
+  467  Hi peter
+  468  hello
+  469  mail -s "Hello World" someone@example.com
+  470  sudo apt install mailutils
+  471  history
+  472  mail -s "Hello World" someone@example.com
+  473  history
+  474  mail -s "Hello World" m26414135@john.petra.ac.id
+  475  vim 26Okt2016.txt
+  476  ls
+  477  pwd
+  478  mv 26Okt2016.txt /home/ephraim/26414135
+  479  ls
+  480  cd 26414135
+  481  ls
+  482  history
+
+
+
