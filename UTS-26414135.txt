@@ -1,0 +1,10 @@
+No.1 
+
+:~$ curl -O http://api.worldbank.org/v2/en/indicator/SI.POV.GINI?downloadformat=csv
+:~$ unzip SI.POV.GINI?downloadformat=csv
+:~$ cat API_SI.POV.GINI_DS2_en_csv_v2.csv | awk 'FNR>=6' | awk 'FNR <= 5' | awk  '{print $1, $5;}' | sed "s/[^A-Z0-9]//g" | awk '{print substr($0, 2, 3)}'
+
+
+No.2
+
+
